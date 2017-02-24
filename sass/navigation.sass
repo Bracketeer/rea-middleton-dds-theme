@@ -1,0 +1,27 @@
+.navbar-default
+	background: linear-gradient(to bottom, #fff, rgba(0,0,0,0))
+	border: none
+	ul
+		padding-left: 0
+		li
+			padding: 20px 10px
+			list-style: none
+			display: inline-block
+			font-size: 2rem
+			+transition(.3s)
+			&:hover
+			a
+				+transition(.3s)
+				text-decoration: none
+				border-left: 3px solid transparent
+				border-right: 3px solid transparent
+				padding-left: 10px
+				padding-right: 10px
+				&:hover
+					border-left: 3px solid $color2
+					border-right: 3px solid $color2
+.navbar-brand
+	padding-top: 20px
+	img
+		height: 30px
+		width: auto

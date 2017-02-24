@@ -1,0 +1,32 @@
+body {
+  font-family: "Poppins", sans-serif; }
+
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: "Poppins", sans-serif; }
+
+.navbar-default {
+  background: none;
+  border: none; }
+
+header {
+  position: relative;
+  height: 600px;
+  background-image: url(../reamiddletondds/images/background.jpg);
+  background-size: cover;
+  background-position: center; }
+
+h1, h1 > a {
+  padding: 100px 0;
+  font: 100px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5); }
+
+svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10vw;
+  /* set height to pixels if you want angle to change with screen width */ }
+
+/*# sourceMappingURL=reamiddletondds.css.map */
